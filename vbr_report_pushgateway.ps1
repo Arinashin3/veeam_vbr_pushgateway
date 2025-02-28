@@ -1,10 +1,12 @@
-# v0.4  ----------------------------------------------------------------------
-# ----------------------  CUSTOM CONFIG  -------------------------------------
+# v0.1
+# ==========================================================
+# First, Set Prometheus's PushGateway URL
+# ==========================================================
 
 $GROUP = '[GROUPNAME]'
 $BASE_URL = 'http://[IPADDRESS]:9091'
 $SERVER = $env:COMPUTERNAME # SET CUSTOM NAME IF DESIRED
-$SelectDate = 1
+$SelectDate = 1 # Set ComputerBackupJob's Sessions Query Range
 
 # ----------------------------------------------------------------------------
 # ----------------------  GENERIC USEFUL STUFF  ------------------------------
